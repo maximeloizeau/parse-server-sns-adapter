@@ -3,8 +3,8 @@
 //
 // Uses SNS for push notification
 const Parse = require('parse/node').Parse;
-const GCM = require('parse-server-push-adapter').GCM;
-const APNS = require('parse-server-push-adapter').APNS;
+const GCM = require('@parse/push-adapter').GCM;
+const APNS = require('@parse/push-adapter').APNS;
 const AWS = require('aws-sdk');
 const log = require('npmlog');
 
