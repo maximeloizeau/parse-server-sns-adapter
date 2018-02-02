@@ -10,7 +10,7 @@
     "npmlog": "^2.0.3",
     "parse": "^1.8.0",
     "aws-sdk": "~2.2.33",
-    "@parse/push-adapter": "git+https://git@github.com/maximeloizeau/parse-server-push-adapter.git#build"
+    "parse-server-push-adapter": "git+https://git@github.com/maximeloizeau/parse-server-push-adapter.git#build"
   },
   "devDependencies": {
     "codecov": "^1.0.1",
