@@ -1,6 +1,6 @@
 {
   "name": "parse-server-sns-adapter",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Open Source Parse SNS Adapter",
   "main": "src/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "npmlog": "^2.0.3",
     "parse": "^1.8.0",
     "aws-sdk": "~2.2.33",
-    "parse-server-push-adapter": "git+https://github.com/maximeloizeau/parse-server-push-adapter.git"
+    "@parse/push-adapter": "git+https://git@github.com/maximeloizeau/parse-server-push-adapter.git"
   },
   "devDependencies": {
     "codecov": "^1.0.1",
